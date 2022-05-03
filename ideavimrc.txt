@@ -50,6 +50,8 @@ nmap <C-j> <action>(MoveLineDown)<action>(AutoIndentLines)
 nmap <C-k> <action>(MoveLineUp)<action>(AutoIndentLines)
 vmap <C-j> <action>(MoveLineDown)<action>(AutoIndentLines)
 vmap <C-k> <action>(MoveLineUp)<action>(AutoIndentLines)
+nmap <C-Up> <action>(MoveStatementUp)
+nmap <C-Down> <action>(MoveStatementDown)
 
 " Multiple Cursors
 nmap <C-n> <Plug>NextWholeOccurrence
